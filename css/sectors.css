@@ -1,0 +1,34 @@
+.chart-detail {
+    background-color: #FAFAFA;
+    padding: 0.9em 1.1em;
+}
+.chart-point {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 4px;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+.chart-point.green {
+    background-color: #DAC43F;
+}
+.chart-point.pink {
+    background-color: #FB855F;
+}
+.sectors-chart-img{
+    width: 100%;
+    padding-right: 2em;
+}
+.sectors-chart {
+    position: relative;
+}
+.sectors-chart .allocation-per {
+    background-color: var(--black-color);
+    padding: 1.5em;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

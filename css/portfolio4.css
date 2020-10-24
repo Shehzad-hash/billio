@@ -1,0 +1,610 @@
+/* portfolio mini card */
+.port-folio-mini-card.active {
+    background-color: white;
+}
+
+.owl-carousel .owl-item img {
+    width: unset;
+}
+
+.port-folio-mini-card {
+    background-color: #F5F5F5;
+    padding: 2em 2.9em 2em 2em;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+}
+
+.portfolio-risk-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.port-folio-mini-card .tab-logo {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+.port-folio-mini-card .gray-text {
+    font-size: 1.3em;
+    margin-bottom: 0.4em;
+    font-weight: 600;
+}
+
+.port-folio-mini-card .tab-img {
+    background-color: #FFE3DB;
+    border-radius: 50%;
+    padding: 0.1em 0.2em;
+    border: 4px solid #FFEDE9;
+}
+
+.port-folio-mini-card.card-2 .tab-img {
+    background-color: #EAE1AB;
+    border: 4px solid #F2F0E5;
+}
+
+.port-folio-mini-card.card-3 .tab-img {
+    background-color: #CAC8C7;
+    border: 4px solid #DDDCDC;
+}
+
+.port-folio-mini-card.card-4 .tab-img {
+    background-color: #F5D9D2;
+    border: 4px solid #F4E5E2;
+}
+
+.port-folio-mini-card.card-5 .tab-img {
+    background-color: #DDDDDD;
+    border: 4px solid #E7E7E8;
+}
+
+.port-folio-mini-card .percent {
+    color: var(--black-color);
+    font-size: 0.5em;
+}
+
+.port-folio-mini-card .tab-number {
+    font-size: 2em;
+    font-family: 'Archivo Black';
+}
+
+/* Porfolio tab */
+.portfolio-tab {
+    padding: 2em;
+    background-color: white;
+    margin-top: 1em;
+    border-radius: 15px;
+    background-image: url(../img/world-map-png-world-map-png-916_451.png);
+    background-position: left top;
+    background-size: 75% 60%;
+    background-repeat: no-repeat;
+}
+.tab-1, .tab-2 {
+    margin-bottom: 15em;
+}
+.portfolio-tab.white-background {
+    background-image: unset;
+}
+
+#piechart {
+    height: 15em !important;
+    width: 15em !important;
+}
+
+.custom-chart {
+    height: 17em;
+    width: 17em;
+    border-radius: 40px;
+    background-color: white;
+    padding: 1em;
+    box-shadow: -2px 4px 12px -9px;
+    ;
+}
+
+.tab-card {
+    color: white;
+    padding: 2.2em 1.3em;
+    border-radius: 8px;
+    position: relative;
+}
+
+.tab-card .card-tag {
+    background-color: rgba(255, 255, 255, 0.31);
+    padding: 0.2em 1.5em;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.portfoliorisk-tab.odd-card .tab-card {
+    padding: 3.6em 1.3em 1.3em 1.3em;
+}
+
+.portfoliorisk-tab.odd-card .tab-card .badge {
+    display: inline-block;
+    height: 2em;
+    border-radius: 0;
+    width: 2em;
+    background-color: #E20000;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: 128px;
+}
+
+.portfoliorisk-tab.odd-card .tab-card.pink .badge {
+    left: 110px;
+    background-color: #FF5B5B;
+}
+
+.portfoliorisk-tab.odd-card .tab-card.lightgreen .badge {
+    left: 70px;
+    background-color: #90EE90;
+}
+
+.portfoliorisk-tab.odd-card .tab-card.green .badge {
+    left: 62px;
+    background-color: #006400;
+}
+
+.lightgreen.lightgreen-2 {
+    color: var(--black-color) !important;
+}
+
+.tab-card.red {
+    background-color: #E20000;
+}
+
+.tab-card.pink {
+    background-color: #FF5B5B;
+}
+
+.tab-card.lightgreen {
+    background-color: #90EE90;
+}
+
+.tab-card.green {
+    background-color: #006400;
+}
+
+.tab-card .card-sign {
+    font-size: 4em;
+}
+
+.portfoliorisk-tab.odd-card .card-sign {
+    font-size: 2em;
+    font-family: 'Archivo Black';
+}
+
+.portfoliorisk-tab.odd-card .tab-card.green .card-white-heading {
+    font-size: 0.9em;
+}
+
+.tab-card .card-percent {
+    font-size: 1.3em;
+    font-family: 'Archivo Black';
+}
+
+.tab-card .card-white-heading {
+    font-size: 1.1em;
+    font-family: 'Archivo Black';
+    margin-bottom: 0.8em;
+}
+
+.up .fas {
+    color: #16C839;
+    font-size: 0.7em;
+    background: white;
+    border-radius: 2px;
+    padding: 0.4em 0.4em;
+    border: none;
+}
+
+.up .fa-arrow-down {
+    color: #C81616;
+}
+
+.tab-card .for-up {
+    font-size: 0.8em;
+    font-weight: 700;
+    font-family: 'Archivo Black';
+}
+
+.tab-card .white-line {
+    height: 12px;
+    width: 1px;
+    background-color: white;
+}
+
+.tab-card .for-right {
+    font-size: 0.8em;
+    font-family: 'Archivo Black';
+}
+
+.tab-card.pink button {
+    background-color: #FCCBCB;
+}
+
+.tab-card.tab-card.lightgreen button {
+    background-color: #DDF8DD;
+}
+
+.tab-card.green button {
+    background-color: #B3D0B3;
+}
+
+.tab-card button {
+    padding: 0.3em 2.3em;
+    font-size: 0.6em;
+    font-family: 'Archivo Black';
+    color: var(--black-color);
+    border-radius: 20px;
+    border: none;
+    background: #F4B1B1;
+    position: relative;
+    margin-right: 0.7em;
+    margin-top: 1.2em;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.tab-card .reviews {
+    padding: 0.3em 3.5em 0.3em 1.5em;
+    margin-right: 0;
+}
+
+.tab-card .button-tag {
+    font-size: 1em;
+    background: #E20000;
+    color: white;
+    font-weight: 700;
+    padding: 0em 0.4em;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top: -6px;
+}
+
+.tab-card .card-currency {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.6em;
+}
+
+.tab-card .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2em;
+}
+
+.tab-card .cards-totals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.tab-card .card-arrows {
+    margin-top: 1.4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tab-card .cards-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs-details {
+    display: none;
+}
+
+.portfolio-tab .chart-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart-details .chart-detail {
+    background-color: #FAFAFA;
+    padding: 0.7em 1.1em;
+    border: 1px solid #C2C2C2;
+}
+
+.chart-details .chart-text {
+    color: var(--font-color);
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.chart-details .chart-point {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+.chart-details .chart-point.green {
+    background-color: #DAC43F;
+}
+
+.chart-details .chart-point.pink {
+    background-color: #FB855F;
+}
+
+.world-map {
+    position: relative;
+    margin-top: 1.5em
+}
+
+.world-map .area-text {
+    font-size: 1.3em;
+    font-family: 'Archivo Black';
+    color: #FFFFFF;
+    line-height: 1.4;
+}
+
+.world-map .purple-area-text {
+    position: absolute;
+    top: 22px;
+    left: 283px;
+}
+
+.world-map .skyblue-area-text {
+    position: absolute;
+    top: 131px;
+    left: 127px;
+}
+
+.world-map .orange-area-text {
+    position: absolute;
+    bottom: 99px;
+    left: 235px;
+}
+
+.world-map .red-area-text {
+    position: absolute;
+    top: 54%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.world-map .yellow-area-text {
+    position: absolute;
+    right: 100px;
+    bottom: 60px;
+}
+
+.world-map .green-area-text {
+    position: absolute;
+    right: 240px;
+    top: 115px;
+}
+
+.portfolio-tab.white-background {
+    display: none;
+}
+
+.portfolio-tab.white-background.tab-1 {
+    display: block;
+}
+
+.swiper-container {
+    width: 100%;
+    max-width: 942px;
+}
+
+.swiper-slide {
+    width: 112px !important;
+}
+
+.tab-3-chart {
+    background-color: #D8BF2C;
+    padding-bottom: 1em;
+    border-radius: 30px;
+}
+
+.tab-3-chart .chart-text {
+    font-family: 'Archivo Black';
+    color: #FFFFFF
+}
+
+.tab-3-chart .white-circle {
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 0.4em;
+}
+
+.tab-3-table {
+    border-radius: 30px;
+    overflow-x: auto;
+}
+
+.tab-3-chart .white-circle.light {
+    background-color: rgba(255, 255, 255, 0.31);
+}
+
+#myChart-2 {
+    height: 224px !important;
+}
+
+.custom-table {
+    width: 100%;
+}
+
+.custom-table .table-point {
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+    border-radius: 50%;
+    margin-right: 0.3em;
+}
+
+.custom-table td {
+    font-family: 'Archivo Black';
+    padding: 0.7em 0.5em;
+}
+
+.custom-table thead tr {
+    background-color: var(--themecolor);
+    color: white;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #F4C0B2;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: rgba(244, 192, 178, 0.40)
+}
+
+.custom-table tbody tr td:nth-child(3),
+.custom-table thead tr td:nth-child(3) {
+    text-align: center;
+}
+
+.custom-table tbody tr td:nth-child(4),
+.custom-table thead tr td:nth-child(4) {
+    text-align: center;
+}
+
+.custom-table .table-point.green {
+    background-color: #4BA548;
+}
+
+.custom-table .table-point.blue {
+    background-color: #4087BD;
+}
+
+.custom-table .table-point.light-blue {
+    background-color: #50A3D6;
+}
+
+.custom-table .table-point.orange {
+    background-color: #EEC32E;
+}
+
+.custom-table .table-point.theme {
+    background-color: var(--themecolor);
+}
+
+/* media query */
+@media (max-width: 768px) {
+    .tab-card .card-tag {
+        padding: 0.4em 1.5em;
+    }
+
+    .tab-card .card-white-heading {
+        margin-top: 0.8em;
+        margin-bottom: 1.8em;
+    }
+
+    .tab-card .cards-totals {
+        font-size: 0.9em;
+    }
+
+    .tab-card button {
+        padding: 0.6em 2.5em;
+        font-size: 0.7em;
+    }
+
+    .tab-card .button-tag {
+        padding: 0.2em 0.6em;
+        font-size: 0.9em;
+    }
+
+    .custom-chart {
+        height: auto;
+        width: 100%;
+        text-align: -webkit-center;
+    }
+
+    .tab-card .reviews {
+        padding: 0.6em 4.2em 0.6em 1.5em;
+        ;
+    }
+
+    .portfolio-tab .chart-details {
+        display: none;
+    }
+
+    .world-map .green-area-text {
+        position: absolute;
+        right: 62px;
+        top: 34px;
+    }
+
+    .world-map .yellow-area-text {
+        position: absolute;
+        right: 26px;
+        bottom: 16px
+    }
+
+    .world-map .purple-area-text {
+        position: absolute;
+        top: 5px;
+        left: 78px;
+    }
+
+    .world-map .skyblue-area-text {
+        position: absolute;
+        top: 37px;
+        left: 32px;
+    }
+
+    .world-map .orange-area-text {
+        position: absolute;
+        bottom: 25px;
+        left: 65px;
+    }
+
+    .swiper-slide {
+        margin-right: 10px !important;
+    }
+
+    .tabs-details {
+        display: block;
+        margin-bottom: 2em;
+    }
+
+    .world-map .area-text {
+        font-size: 0.5em;
+        line-height: 1.2;
+    }
+
+    .tab-card .white-line {
+        height: 14px;
+        width: 2px;
+    }
+
+    .tab-card .cards-btn {
+        margin-top: 0.6em;
+    }
+    .tab-1, .tab-2 {
+        margin-bottom: 0;
+    }
+
+    /* .card-arrows {
+        justify-content: space-evenly !important;
+    }
+    .price {
+        justify-content: space-evenly !important;
+    }
+    .cards-btn {
+        justify-content: space-evenly !important;
+    } */
+}

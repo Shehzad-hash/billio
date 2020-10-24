@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Optimizer</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="https://rawgit.com/gdaunton/Semantic-UI/range-slider-build/dist/semantic.css" />
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style-optimizer.css">
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="site-header fixed-top">
+        <div class="container-fluid px-0 px-md-3">
+            <div class="header-links">
+                <div id="side-menu-btn" class="menu-icon">
+                    <div class="icon-line line1"></div>
+                    <div class="icon-line line2"></div>
+                    <div class="icon-line line3"></div>
+                </div>
+                <a class="brand" href="#">
+                    <img src="./img/Group 34.png" alt="">
+                </a>
+                <div class="login">
+                    <a href="#">
+                        <img class="img-envelope" src="./img/Image 7.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="img-bell" src="./img/Image 8.svg" alt="">
+                    </a>
+                    <a class="user-link" href="#">
+                        <span class="user-name">
+                            Roack Smith
+                        </span>
+                        <img class="user-img" src="./img/Teacher.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Main-content start -->
+    <div class="container-fluid">
+        <div class="main-content d-flex">
+            <!-- Side Menu start -->
+            <div class="side-menu">
+                <div class="over-view">
+                    <div class="card">
+                        <div class="card-header white-bg" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <img src="./img/Group 997.png" alt="">
+                                    <span class="overview-text">
+                                        Overview
+                                    </span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne">
+                            <div class="card-body">
+                                <div class="side-menu-links">
+                                    <a class="side-menu-link active" href="./portfolio1.html">
+                                        Bird's eye view
+                                    </a>
+                                    <a class="side-menu-link" href="./portfolio2.html">
+                                        Main holdings and activity
+                                    </a>
+                                    <a class="side-menu-link" href="./portfolio3.html">
+                                        Macro economic
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        A deeper look
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card links-header">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+                                    <img src="./img/Group 1424.png" alt="">
+                                    <span class="overview-text">
+                                        Your Profile
+                                    </span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo">
+                            <div class="card-body pt-1">
+                                <div class="side-menu-links">
+                                    <a class="side-menu-link" href="#">
+                                        Performance by asset classes
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        Topic analysis
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        Style analysis
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        Sector analysis
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        Geographic analysis
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        Drawdown Analysis
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        Expense Analysis
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        Relevant articles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card links-header">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <img src="./img/Group 1424.png" alt="">
+                                    <span class="overview-text">
+                                        Risk and investment style
+                                    </span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse show" aria-labelledby="headingThree">
+                            <div class="card-body pt-1">
+                                <div class="side-menu-links">
+                                    <a class="side-menu-link" href="#">
+                                        Your risk profile
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        Investment attributes
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card links-header">
+                        <div class="card-header" id="headingfour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    <img src="./img/Group 1424.png" alt="">
+                                    <span class="overview-text">
+                                        Going forward
+                                    </span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapsefour" class="collapse show" aria-labelledby="headingfour">
+                            <div class="card-body pt-1">
+                                <div class="side-menu-links">
+                                    <a class="side-menu-link" href="#">
+                                        Stress test your portfolio
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        Analyst reviews
+                                    </a>
+                                    <a class="side-menu-link" href="#">
+                                        Upcoming events
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Side menu end -->
+
+            <!-- page-content start -->
+            <div class="page-content pb-5">
+                <h1 class="main-heading">Optimizer</h1>
+                <h2 class="sub-heading">Style Optimizer</h2>
+                <div class="optimizer-card">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="model">
+                                <div class="shares-model">
+                                    <h4 class="shares-heading mb-0">iShares Optimizer Model</h4>
+                                    <a class="shares-link" href="#">
+                                        iShares Optimizer Model
+                                        <i class="fas fa-chevron-down ml-2"></i>
+                                    </a>
+                                </div>
+                                <div class="shares-model text-right">
+                                    <div class="shares-link">$ 10,000</div>
+                                    <div class="shares-link">Portfolio Total</div>
+                                </div>
+                            </div>
+                            <div class="current-holding">
+                                <div class="my-card">
+                                    <div class="d-flex align-items-center">
+                                        <div class="risk-tag">
+                                            <div class="risk">RISK</div>
+                                            <div class="number">51</div>
+                                        </div>
+                                        <h4 class="shares-heading ml-2 mt-0">iShares Optimizer Model</h4>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="pr-2 dollar">$ 10,000</div>
+                                        <div class="pl-2 dropdown">
+                                            <a class="custom-dots dropdown-toggle" type="button" id="triggerId"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="fas fa-ellipsis-h"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="triggerId">
+                                                <h6 id="dot-dropdown-heading" class="dropdown-heading">ACCOUNT
+                                                    ACTIONS
+                                                </h6>
+                                                <a class="dropdown-item" href="#">Change accounts type</a>
+                                                <a class="dropdown-item" href="#">Optimize...</a>
+                                                <a class="dropdown-item" href="#">Delete Account</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="current-side">
+                                    <a class="shares-link" href="#">
+                                        current holdings
+                                        <i class="fas fa-chevron-down ml-2"></i>
+                                    </a>
+                                    <a class="float-right sort" href="#">
+                                        <i class="fas fa-sort-alpha-down"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="all-allocation optimize-card-2">
+                                <div class="allocation-range">
+                                    <div class="risk-tag">
+                                        <div class="risk">RISK</div>
+                                        <div class="number">51</div>
+                                    </div>
+                                    <div class="ui segment custom-range">
+                                        <div class="ui range" id="range-1"></div>
+                                    </div>
+                                    <button id="optimize-btn" class="optimize-button">optimize</button>
+                                    <a class="close-link" href="#">
+                                        <i class="far fa-window-close"></i>
+                                    </a>
+                                </div>
+                                <div class="row px-0 px-md-3">
+                                    <div class="col-md-4 m-auto">
+                                        <a class="lock ml-0 ml-md-3" href="#">
+                                            <i class="fas fa-unlock"></i>
+                                            <span class="card-text">all allocation</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="range-width">
+                                            <span class="card-text mr-2">MIN 0%</span>
+                                            <div class="ui segment custom-range">
+                                                <div class="double-range ui double range"></div>
+                                            </div>
+                                            <span class="card-text ml-2">MAX 100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 m-auto text-left text-md-right">
+                                        <span class="card-text">25.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="all-allocation optimize-card-2 hide">
+                                <a id="closed" class="close-link float-right" href="#">
+                                    <i class="far fa-window-close"></i>
+                                </a>
+                                <div class="d-flex align-items-center">
+                                    <div class="risk-tag">
+                                        <div class="risk">RISK</div>
+                                        <div class="number">51</div>
+                                    </div>
+                                    <div class="risk-text ml-2">
+                                        <h4 class="mb-0">Here's your optimized results.</h4>
+                                        <div class="card-text">Review your optimized allocations below. Save
+                                            these results or try again </div>
+                                    </div>
+                                </div>
+                                <div class="buttons">
+                                    <button class="optimize-button orange-btn mr-4 mb-0 mb-md-2">SAVE</button>
+                                    <button class="optimize-button orange-btn try">TRY
+                                        AGAIN</button>
+                                </div>
+                            </div>
+                            <!-- row 2 -->
+                            <div class="row-table px-0 px-md-3">
+                                <div class="row all-allocation py-2 py-md-0">
+                                    <div class="col-md-4 m-auto">
+                                        <a class="lock" href="#">
+                                            <i class="fas fa-unlock"></i>
+                                            <span class="card-text">Cash/ Money Market</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="range-width">
+                                            <span class="card-text mr-2">0%</span>
+                                            <div class="ui segment custom-range">
+                                                <div class="double-range ui double range"></div>
+                                            </div>
+                                            <span class="card-text ml-2">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 text-left text-md-right m-auto">
+                                        <span class="card-text">$1521</span>
+                                        <span class="card-text ml-3">25.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-table px-0 px-md-3">
+                                <div class="row all-allocation py-2 py-md-0">
+                                    <div class="col-md-4 m-auto">
+                                        <a class="lock" href="#">
+                                            <i class="fas fa-unlock"></i>
+                                            <span class="card-text">Cash/ Money Market</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="range-width">
+                                            <span class="card-text mr-2">0%</span>
+                                            <div class="ui segment custom-range">
+                                                <div class="double-range ui double range"></div>
+                                            </div>
+                                            <span class="card-text ml-2">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 text-left text-md-right m-auto">
+                                        <span class="card-text">$1521</span>
+                                        <span class="card-text ml-3">25.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-table px-0 px-md-3">
+                                <div class="row all-allocation py-2 py-md-0">
+                                    <div class="col-md-4 m-auto">
+                                        <a class="lock" href="#">
+                                            <i class="fas fa-unlock"></i>
+                                            <span class="card-text">Cash/ Money Market</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="range-width">
+                                            <span class="card-text mr-2">0%</span>
+                                            <div class="ui segment custom-range">
+                                                <div class="double-range ui double range"></div>
+                                            </div>
+                                            <span class="card-text ml-2">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 text-left text-md-right m-auto">
+                                        <span class="card-text">$1521</span>
+                                        <span class="card-text ml-3">25.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-table px-0 px-md-3">
+                                <div class="row all-allocation py-2 py-md-0">
+                                    <div class="col-md-4 m-auto">
+                                        <a class="lock" href="#">
+                                            <i class="fas fa-unlock"></i>
+                                            <span class="card-text">Cash/ Money Market</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="range-width">
+                                            <span class="card-text mr-2">0%</span>
+                                            <div class="ui segment custom-range">
+                                                <div class="double-range ui double range"></div>
+                                            </div>
+                                            <span class="card-text ml-2">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 text-left text-md-right m-auto">
+                                        <span class="card-text">$1521</span>
+                                        <span class="card-text ml-3">25.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-table px-0 px-md-3">
+                                <div class="row all-allocation py-2 py-md-0">
+                                    <div class="col-md-4 m-auto">
+                                        <a class="lock" href="#">
+                                            <i class="fas fa-unlock"></i>
+                                            <span class="card-text">Cash/ Money Market</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="range-width">
+                                            <span class="card-text mr-2">0%</span>
+                                            <div class="ui segment custom-range">
+                                                <div class="double-range ui double range"></div>
+                                            </div>
+                                            <span class="card-text ml-2">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 text-left text-md-right m-auto">
+                                        <span class="card-text">$1521</span>
+                                        <span class="card-text ml-3">25.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-table px-0 px-md-3">
+                                <div class="row all-allocation py-2 py-md-0">
+                                    <div class="col-md-4 m-auto">
+                                        <a class="lock" href="#">
+                                            <i class="fas fa-unlock"></i>
+                                            <span class="card-text">Cash/ Money Market</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="range-width">
+                                            <span class="card-text mr-2">0%</span>
+                                            <div class="ui segment custom-range">
+                                                <div class="double-range ui double range"></div>
+                                            </div>
+                                            <span class="card-text ml-2">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 text-left text-md-right m-auto">
+                                        <span class="card-text">$1521</span>
+                                        <span class="card-text ml-3">25.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-table px-0 px-md-3">
+                                <div class="row all-allocation py-2 py-md-0">
+                                    <div class="col-md-4 m-auto">
+                                        <a class="lock" href="#">
+                                            <i class="fas fa-unlock"></i>
+                                            <span class="card-text">Cash/ Money Market</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="range-width">
+                                            <span class="card-text mr-2">0%</span>
+                                            <div class="ui segment custom-range">
+                                                <div class="double-range ui double range"></div>
+                                            </div>
+                                            <span class="card-text ml-2">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 text-left text-md-right m-auto">
+                                        <span class="card-text">$1521</span>
+                                        <span class="card-text ml-3">25.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-table px-0 px-md-3">
+                                <div class="row all-allocation py-2 py-md-0">
+                                    <div class="col-md-4 m-auto">
+                                        <a class="lock" href="#">
+                                            <i class="fas fa-unlock"></i>
+                                            <span class="card-text">Cash/ Money Market</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="range-width">
+                                            <span class="card-text mr-2">0%</span>
+                                            <div class="ui segment custom-range">
+                                                <div class="double-range ui double range"></div>
+                                            </div>
+                                            <span class="card-text ml-2">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 text-left text-md-right m-auto">
+                                        <span class="card-text">$1521</span>
+                                        <span class="card-text ml-3">25.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-table px-0 px-md-3">
+                                <div class="row all-allocation py-2 py-md-0">
+                                    <div class="col-md-4 m-auto">
+                                        <a class="lock" href="#">
+                                            <i class="fas fa-unlock"></i>
+                                            <span class="card-text">Cash/ Money Market</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="range-width">
+                                            <span class="card-text mr-2">0%</span>
+                                            <div class="ui segment custom-range">
+                                                <div class="double-range ui double range"></div>
+                                            </div>
+                                            <span class="card-text ml-2">100%</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 text-left text-md-right m-auto">
+                                        <span class="card-text">$1521</span>
+                                        <span class="card-text ml-3">25.0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- row 2 end -->
+                        </div>
+                        <div class="col-md-3 px-0">
+                            <div class="card-51">
+                                <div class="risk-text">RISK</div>
+                                <div class="text-51">51</div>
+                            </div>
+                            <div class="probability-card my-4 card-shadow">
+                                <h4 class="ml-2 gray-text">95% Probability (6 Month)</h4>
+                                <img class="img-fluid" src="./img/Screenshot_1.png" alt="">
+                            </div>
+                            <div class="rating-cards">
+                                <div class="card-shadow rating-card">
+                                    <h4 class="gray-text mb-0">Riskalyze GPA</h4>
+                                    <div class="star-rating">
+                                        <img class="star-img" src="./img/Icon awesome-star.png" alt="">
+                                        <div class="rating-number">4.2</div>
+                                    </div>
+                                </div>
+                                <div class="card-shadow ratio-card">
+                                    <h4 class="gray-text">Potential Annual Return</h4>
+                                    <div class="parcent">5.54%</div>
+                                </div>
+                                <div class="card-shadow ratio-card">
+                                    <h4 class="gray-text">Annual Dividend</h4>
+                                    <div class="parcent">1.37%</div>
+                                </div>
+                                <div class="card-shadow ratio-card">
+                                    <h4 class="gray-text">Expense Ratio</h4>
+                                    <div class="parcent">0.27%</div>
+                                </div>
+                            </div>
+                            <div class="portfolio-chart">
+                                <canvas id="myChart" width="400" height="400"></canvas>
+                                <div class="totals">
+                                    <div class="total-portfolio">$10,000</div>
+                                    <div class="gray-text">PORTFOLIO TOLAL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination start -->
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="d-inline-block">
+                            <div class="paginations">
+                                <a class="mr-5 prev" href="#">
+                                    <img src="./img/Path 918.png" alt="">
+                                </a>
+                                <a class="mr-5 prev-2" href="#">
+                                    <img class="black-arrow" src="./img/Path 918 prev.png" alt="">
+                                </a>
+                                <span class="pagination"></span>
+                                <span class="pagination"></span>
+                                <span class="pagination active"></span>
+                                <span class="pagination"></span>
+                                <span class="pagination"></span>
+                                <span class="pagination"></span>
+                                <span class="pagination"></span>
+                                <span class="pagination"></span>
+                                <a class="ml-5 next" href="#">
+                                    <img src="./img/Path 919.png" alt="">
+                                </a>
+                                <a class="ml-5 next-2" href="#">
+                                    <img class="black-arrow" src="./img/Path 919 next.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination end -->
+
+                <!-- Footer start -->
+                <footer class="site-footer">
+                    <div class="row mt-5 mx-auto">
+                        <div class="col-md-3 col-6">
+                            <div class="footer-links">
+                                <div class="links-heading">Quick Links</div>
+                                <a class="footer-link" href="#">
+                                    Contact us
+                                </a>
+                                <a class="footer-link" href="#">
+                                    Shipping & Return
+                                </a>
+                                <a class="footer-link" href="#">
+                                    Privacy Policy
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="footer-links">
+                                <div class="links-heading">Quick Links</div>
+                                <a class="footer-link" href="#">
+                                    Contact us
+                                </a>
+                                <a class="footer-link" href="#">
+                                    Shipping & Return
+                                </a>
+                                <a class="footer-link" href="#">
+                                    Privacy Policy
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mt-md-0  col-6">
+                            <div class="footer-links">
+                                <div class="links-heading">Quick Links</div>
+                                <a class="footer-link" href="#">
+                                    Contact us
+                                </a>
+                                <a class="footer-link" href="#">
+                                    Shipping & Return
+                                </a>
+                                <a class="footer-link" href="#">
+                                    Privacy Policy
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-4 mt-md-0  col-6">
+                            <div class="footer-links">
+                                <div class="links-heading">Quick Links</div>
+                                <a class="footer-link" href="#">
+                                    Contact us
+                                </a>
+                                <a class="footer-link" href="#">
+                                    Shipping & Return
+                                </a>
+                                <a class="footer-link" href="#">
+                                    Privacy Policy
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer end -->
+            </div>
+            <!-- page-content end -->
+        </div>
+    </div>
+    <!-- main-content end -->
+    <img class="bg-img" src="./img/Group 35.png" alt="">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://rawgit.com/gdaunton/Semantic-UI/range-slider-build/dist/semantic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="./js/portfoliochart.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

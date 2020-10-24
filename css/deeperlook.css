@@ -1,0 +1,20 @@
+.deeper-chart .chart {
+    width: 100%;
+}
+.text-with-bg {
+    margin-top: 2em;
+    background-color: #FFFBE6;
+    padding: 1.4em 1.5em;
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+}
+.deeper-chart {
+    margin-top: 1.7em;
+    background-color: white;
+    padding: 1.3em;
+    border-radius: 8px;
+}
+#chart-0 {
+    height: 300px !important;
+    width: 100% !important;
+}

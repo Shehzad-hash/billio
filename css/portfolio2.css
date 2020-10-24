@@ -1,0 +1,181 @@
+.macro-economic-card {
+    background-color: white;
+    display: flex;
+    margin: 0.5em;
+    border-radius: 7px;
+    border-right: 7px solid var(--themecolor);
+}
+
+.macro-economic-card.yellow-card {
+    border-right: 7px solid var(--secondary-color);
+}
+
+.macro-economic-card.black-card {
+    border-right: 7px solid var(--black-color);
+}
+
+.macro-economic-card.light-orange-card {
+    border-right: 7px solid var(--pink-color);
+}
+
+.macro-card-text {
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 0.5em;
+    padding-bottom: 0.4em;
+    font-family: 'Archivo Black';
+}
+
+.macro-economic-card .card-details {
+    padding: 3.5em 0;
+}
+
+.macro-economic-card img {
+    height: 75px;
+    background-color: var(--themecolor);
+    padding: 0.7em 0.9em;
+}
+
+.macro-economic-card.yellow-card img {
+    background-color: var(--secondary-color);
+    padding: 0.9em 0.4em;
+}
+
+.macro-economic-card.black-card img {
+    background-color: var(--black-color);
+}
+
+.macro-economic-card.light-orange-card img {
+    background-color: var(--pink-color);
+}
+
+.risk-cards .col-md-6 {
+    margin-bottom: 1em;
+}
+
+.tag-card {
+    margin: 0.5em;
+    border-radius: 7px;
+    border: 1px solid transparent;
+}
+
+.tag-card.yellow-bg {
+    background-color: #DBC440;
+}
+
+.tag-card.orange-bg {
+    background-color: var(--themecolor);
+}
+
+.tag-card.orange-bg .card-tag {
+    background-color: #FF8868;
+}
+
+.tag-card.orange-bg .card-heading::before {
+    background-color: #B32D0A;
+}
+
+.tag-card .card-logo-img {
+    float: right;
+    height: 58px;
+    padding: 0.4em;
+}
+
+.tag-card .card-heading {
+    color: white;
+    padding-left: 0.7em;
+    position: relative;
+    font-family: 'Archivo Black';
+    margin-top: 1.4em;
+}
+
+.tag-card .card-tags {
+    padding: 0 1em;
+    padding-bottom: 1.2em;
+}
+
+.tag-card .card-heading::before {
+    content: "";
+    background-color: #847106;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    height: 28px;
+    width: 7px;
+    border-bottom: 4px;
+
+}
+
+.tag-card .card-tag {
+    background-color: #E3CE4F;
+    display: inline-block;
+    padding: 0.3em 0.7em;
+    border-radius: 3px;
+    margin-left: 0.3em;
+    margin-bottom: 0.6em;
+    color: white;
+    font-weight: 600;
+}
+
+.tag-card .card-buttons {
+    padding-left: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+.tag-card.orange-bg .card-button {
+    background-color: #FF8868;
+    border: 1px solid rgba(112, 112, 122, 0.3);
+    padding: 0.5em 2em;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    margin-right: 0.5em;
+}
+
+.tag-card.orange-bg .card-button i {
+    font-size: 1.5em;
+    font-weight: 100;
+    vertical-align: bottom;
+    margin-right: 0.5em;
+}
+
+.tag-card .card-buttons {
+    display: none;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .card-tags {
+        display: none;
+    }
+
+    .tag-card .card-buttons {
+        display: block;
+    }
+
+    .tag-card .card-heading {
+        text-transform: uppercase;
+    }
+
+    .tag-card.orange-bg .card-heading {
+        color: #AB2603;
+    }
+
+    .tag-card.yellow-bg .card-heading {
+        color: #998A35;
+    }
+
+    .tag-card {
+        border-radius: 13px;
+    }
+
+    .sm-screen {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .macro-card-text {
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,10 @@
+#myChart {
+    width: 100% !important;
+    height: 600px !important;
+}
+
+@media (max-width: 768px) {
+    #myChart {
+        height: auto !important;
+    }
+}

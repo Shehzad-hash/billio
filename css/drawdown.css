@@ -1,0 +1,56 @@
+.time-text {
+    color: var(--black-color);
+}
+
+.date-text {
+    color: var(--secondary-color) !important;
+}
+
+.drawdown-chart img {
+    width: 100%;
+}
+
+.drawdown-card {
+    background-color: var(--themecolor);
+    padding: 1.4em 1.4em 2.4em 1.4em;
+    border-radius: 12px;
+    background-image: url('../img/drawdown-card-bg.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 270px 100px;
+    position: relative;
+}
+
+.drawdown-card .drawdown-card-text {
+    color: white;
+    font-weight: 700;
+}
+
+.drawdown-card .drawdown-card-numbers {
+    font-size: 3em;
+    color: white;
+}
+
+.drawdown-card .drawdown-card-img {
+    position: absolute;
+    right: 25px;
+    bottom: -25px;
+    height: 80%;
+}
+#drawdown-chart {
+    width: 100% !important;
+    height: 500px !important;
+}
+.drawdown-card.yellow {
+    background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    .drawdown-card .drawdown-card-numbers {
+        font-size: 2em;
+    }
+
+    .drawdown-card .drawdown-card-img {
+        right: 0;
+    }
+}

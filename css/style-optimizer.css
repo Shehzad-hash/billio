@@ -1,0 +1,308 @@
+.optimizer-card .shares-link {
+    text-transform: uppercase;
+    color: var(--font-color);
+    font-size: 0.7em;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.optimizer-card {
+    background: white;
+    padding: 1.8em 2em;
+    border-radius: 0.8em;
+}
+
+.optimizer-card .model {
+    display: flex;
+    justify-content: space-between;
+}
+
+.optimizer-card .shares-heading {
+    font-size: 1.3em;
+    color: var(--black-color);
+}
+
+.risk-tag {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    padding: 0.2em 0.4em;
+    text-align: center;
+}
+
+.risk-tag .risk {
+    font-size: 0.5em;
+    font-weight: 700;
+    line-height: 0.7;
+    margin-top: 0.9em;
+    color: var(--black-color);
+}
+
+.risk-tag .number {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.optimizer-card .my-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em 1.3em;
+    align-items: center;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.optimizer-card .dropdown-toggle::after {
+    content: unset;
+}
+
+.optimizer-card .custom-dots {
+    cursor: pointer;
+}
+
+.current-holding {
+    align-items: center;
+    margin-top: 1.4em;
+    background-color: var(--background-color);
+}
+
+.optimizer-card .sort {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.optimizer-card .dollar {
+    font-size: 0.9em;
+    font-weight: 600;
+    border-right: 1px solid #E1E1E1;
+    color: var(--black-color);
+}
+
+.optimizer-card .current-side {
+    padding: 0.3em 1.3em;
+}
+
+#dot-dropdown-heading {
+    font-size: 0.7em;
+    font-weight: 700;
+    text-align: end;
+    padding-right: 1.3em;
+}
+
+.all-allocation.optimize-card-2 {
+    background-color: #F9FFFE;
+}
+
+.all-allocation .optimize-button {
+    background-color: var(--themecolor);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-size: 0.9em;
+    border-radius: 3px;
+    padding: 0.5em 0.9em;
+    outline: none;
+    font-weight: 700;
+}
+
+.all-allocation .custom-range {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 15em;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.all-allocation .allocation-range {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+
+.all-allocation .allocation-range .close-link {
+    color: var(--font-color);
+    display: inline-block;
+    margin-top: -2em;
+}
+
+.custom-range .ui.range:not(.vertical) .inner .track {
+    height: 2px;
+}
+
+.custom-range .ui.range .inner .track {
+    background-color: black;
+}
+
+.custom-range .ui.range:not(.vertical) .inner .track-fill {
+    height: 2px;
+}
+
+.custom-range .ui.range .inner .thumb {
+    border: none;
+    left: 126.5px;
+    background: white;
+    box-shadow: grey 0px 0px 8px -2px;
+    width: 1.2em;
+    height: 1.2em;
+    top: 0px;
+}
+
+.card-text {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.range-width {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    min-width: 24em;
+}
+
+.lock {
+    color: var(--font-color);
+    font-size: 1.1em;
+}
+
+.lock .fa-unlock {
+    padding-right: 1.5em;
+}
+
+.row-table .all-allocation:nth-of-type(odd) {
+    background-color: var(--background-color);
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.row-table .all-allocation:nth-of-type(even) {
+    background-color: rgba(233, 233, 233, 0.15);
+}
+
+.orange-btn.optimize-button {
+    width: 8em;
+    border: 1px solid var(--themecolor);
+}
+
+.hide .close-link {
+    color: var(--font-color);
+}
+
+.optimize-card-2.hide {
+    padding: 1.8em 3.3em 1.5em 4em;
+    display: none;
+}
+
+.buttons {
+    margin-top: 1em;
+    padding-left: 2.7em;
+}
+
+.orange-btn.try {
+    background-color: white;
+    color: var(--font-color);
+    border: 1px solid var(--font-color);
+}
+
+.card-51 {
+    padding: 0.8em 1em;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.card-51 .risk-text {
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom: 0.7em;
+}
+
+.card-51 .text-51 {
+    font-size: 2.3em;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.card-shadow {
+    box-shadow: -1px 2px 7px -4px;
+}
+
+.probability-card {
+    border-radius: 2px;
+    padding: 1.3em 1em 0 1em;
+}
+
+.rating-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2em 1.3em;
+}
+
+.star-rating {
+    position: relative;
+}
+
+.rating-card .rating-number {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-weight: 800;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.ratio-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em;
+    margin: 0.9em 0;
+}
+
+.ratio-card .parcent {
+    font-weight: 800;
+    color: var(--black-color);
+}
+
+.portfolio-chart {
+    position: relative;
+}
+
+.portfolio-chart .totals {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.portfolio-chart .total-portfolio {
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-bottom: 0.2em;
+    color: var(--black-color);
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .card-51 {
+        margin-top: 1.5em;
+        display: block;
+        text-align: center;
+    }
+
+    .all-allocation .allocation-range .close-link {
+        padding-left: 1em;
+    }
+
+    .all-allocation .allocation-range {
+        padding: 1em 0;
+    }
+}

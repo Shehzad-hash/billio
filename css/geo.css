@@ -1,0 +1,114 @@
+.chart-detail {
+    background-color: #FAFAFA;
+    padding: 0.9em 1.1em;
+}
+.chart-point {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 4px;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+.chart-point.green {
+    background-color: #DAC43F;
+}
+.chart-point.pink {
+    background-color: #FB855F;
+}
+#myChart-3 {
+    height: 224px !important;
+}
+/* table */
+.custom-table {
+    width: 100%;
+}
+
+.custom-table .table-point {
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+    border-radius: 50%;
+    margin-right: 0.3em;
+}
+
+.custom-table td {
+    font-family: 'Archivo Black';
+    padding: 0.7em 0.5em;
+}
+
+.custom-table thead tr {
+    background-color: var(--themecolor);
+    color: white;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #F4C0B2;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: rgba(244, 192, 178, 0.40)
+}
+
+.custom-table tbody tr td:nth-child(3),
+.custom-table thead tr td:nth-child(3) {
+    text-align: center;
+}
+
+.custom-table tbody tr td:nth-child(4),
+.custom-table thead tr td:nth-child(4) {
+    text-align: center;
+}
+
+.custom-table .table-point.green {
+    background-color: #4BA548;
+}
+
+.custom-table .table-point.blue {
+    background-color: #4087BD;
+}
+
+.custom-table .table-point.light-blue {
+    background-color: #50A3D6;
+}
+
+.custom-table .table-point.orange {
+    background-color: #EEC32E;
+}
+
+.custom-table .table-point.theme {
+    background-color: var(--themecolor);
+}
+.tab-3-table {
+    border-radius: 30px;
+    overflow-x: auto;
+}
+
+.tab-3-chart {
+    background-color: #D8BF2C;
+    padding-bottom: 1em;
+    border-radius: 30px;
+}
+
+.tab-3-chart .chart-text {
+    font-family: 'Archivo Black';
+    color: #FFFFFF
+}
+
+.tab-3-chart .white-circle {
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 0.4em;
+}
+
+.tab-3-table {
+    border-radius: 30px;
+    overflow-x: auto;
+}
+
+.tab-3-chart .white-circle.light {
+    background-color: rgba(255, 255, 255, 0.31);
+}
